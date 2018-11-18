@@ -19,4 +19,10 @@ def decrypt_file(src_dec_file, dst_dec_file):
     except Exception as ex:
         dec_file_logger.logger.fatal(ex)
 
+    print(data)
     return data
+
+
+# if __name__ == "__main__":
+#     decrypt_file("/Users/daniellemachpud/workspace/Test1/data.txt.aes",
+#                  "/Users/daniellemachpud/workspace/Test1/dataout.txt")
